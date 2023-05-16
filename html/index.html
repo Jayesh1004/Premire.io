@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0%;
+      }
+      .nev {
+        height: 120px;
+        width: 100%;
+        /* margin-top:0.2%; */
+        left: 0%;
+        position: fixed;
+        display: flex;
+        background-color: white;
+        justify-content: space-evenly;
+      }
+
+      .nev > .logo {
+        width: 100px;
+        display: flex;
+        align-items: center;
+      }
+      .nev > .logo img {
+        width: 100%;
+      }
+
+      .nev {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: rgba(212, 233, 121, 0.8);
+      }
+      .nev .nav2 {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .nev .logo {
+        margin-left: 50px;
+      }
+      a{
+            color: rgb(14, 18, 18);
+            padding:5px;
+            text-decoration: none;
+            font-size:20px;
+            font-family: 'Oswald', sans-serif;
+            margin-left: 30px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="nev">
+      <div class="logo">
+        <img src="./ei_1684248612400-removebg-preview-1.png" alt="IMG" />
+      </div>
+      <div class="nav2">
+        <div><a>HOME</a></div>
+        <div><a href="">PROFILE</a></div>
+        <div><a href="">PRODUCTS</a></div>
+        <div><a href="">GALLERY</a></div>
+        <div><a href="">CONTACTS</a></div>
+      </div>
+    </div>
+  </body>
 </html>
